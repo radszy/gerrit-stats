@@ -1,0 +1,17 @@
+[package]
+name = "gerrit-stats"
+version = "0.1.0"
+authors = ["Radek Szymanski <radszy@pm.me>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.4"
+chrono = "0.4.6"
+csv = "1.0"
+clap = "2.33.0"
+futures = "0.1.28"
+tokio = "0.1.22"
+tokio-process = "0.2.4"
+tokio-core = "0.1.17"

@@ -1,0 +1,26 @@
+server = "gerrit.youraddr.com"
+port = "29418"
+
+# Look in reviews that were within 'from' and 'to' dates. These fields are required.
+from = 2019-01-01
+to = 2019-12-31
+
+[[user]]
+# username and fullname are required fields.
+username = "jado"
+fullname = "Jane Doe"
+
+[[user]]
+username = "riro"
+fullname = "Richard Roe"
+
+# Override default 'to' just for this user, this is useful when user switches projects.
+to = 2019-06-31
+
+[[user]]
+username = "josm"
+fullname = "John Smith"
+
+# Override default 'to' and 'from' just for this user.
+from = 2019-03-01
+to = 2019-05-31
