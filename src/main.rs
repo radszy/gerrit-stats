@@ -139,6 +139,7 @@ fn main() {
         "--comments",
         "--commit-message",
         "--files",
+        "--no-limit",
         "--format",
         "JSON",
     ];
